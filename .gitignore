@@ -1,0 +1,68 @@
+# ========================
+# GENERAL
+# ========================
+.env
+.env.*
+*.log
+*.sqlite3
+*.db
+.DS_Store
+Thumbs.db
+
+# ========================
+# PYTHON (BACKEND)
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+venv/
+.env/
+.venv/
+pip-wheel-metadata/
+
+# pytest
+.pytest_cache/
+
+# coverage
+.coverage
+htmlcov/
+
+# ========================
+# NODE (FRONTEND)
+# ========================
+node_modules/
+dist/
+build/
+
+# vite
+.vite/
+
+# ========================
+# DOCKER
+# ========================
+docker-compose.override.yml
+
+# ========================
+# IDE
+# ========================
+.vscode/
+.idea/
+
+# ========================
+# OS FILES
+# ========================
+*.swp
+*.swo
+
+# ========================
+# MISC
+# ========================
+*.zip
+*.tar
+*.gz
+
+backend/gmail_token.json
+backend/gmail_credentials.json

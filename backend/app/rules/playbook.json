@@ -1,0 +1,54 @@
+{
+  "version": "1.0",
+  "description": "Company negotiation playbook — acceptable ranges for common clause types.",
+  "liability": {
+    "standard": "12-month fees paid, or $50,000 minimum",
+    "acceptable_range": "6-month fees minimum; absolute floor $25,000",
+    "red_flags": ["cap below $10,000", "cap below 1 month fees", "$500 cap"]
+  },
+  "ip": {
+    "standard": "Vendor retains all pre-existing IP; only custom work-for-hire transfers",
+    "acceptable_range": "Vendor grants broad licence for deliverables; full assignment only for bespoke work",
+    "red_flags": ["all IP assigns to client", "no carve-out for pre-existing IP", "vendor assigns background IP"]
+  },
+  "payment": {
+    "standard": "Net-30 from invoice date",
+    "acceptable_range": "Net-15 to Net-45",
+    "red_flags": ["immediate payment", "payment on delivery with no review period"]
+  },
+  "termination": {
+    "standard": "30-day notice for convenience; 30-day cure period for breach",
+    "acceptable_range": "14-60 day notice; 14-30 day cure",
+    "red_flags": ["no cure period", "immediate termination for any breach", "no termination for convenience"]
+  },
+  "confidentiality": {
+    "standard": "Mutual, 3-year post-termination, standard exclusions",
+    "acceptable_range": "2-5 year term, mutual or one-way",
+    "red_flags": ["perpetual one-sided NDA", "no exclusions", "covers public information"]
+  },
+  "data": {
+    "standard": "GDPR Art. 28 DPA with SCCs for international transfers",
+    "acceptable_range": "DPA must be present for any EU personal data",
+    "red_flags": ["no DPA", "missing SCCs for non-EU transfers", "processor sub-contracts without consent"]
+  },
+  "governing_law": {
+    "standard": "Mutual jurisdiction; mediation before litigation",
+    "acceptable_range": "Governing law of either party's home jurisdiction",
+    "red_flags": ["exclusive foreign jurisdiction with no dispute resolution", "no mediation step"]
+  },
+  "auto_renewal": {
+    "standard": "30-day written notice to cancel before renewal",
+    "acceptable_range": "Up to 60 days",
+    "red_flags": ["90+ day notice window", "automatic renewal with no notice requirement"]
+  },
+  "sla": {
+    "standard": "99.9% monthly uptime; service credits of 10% per 1% downtime below SLA",
+    "acceptable_range": "99.5% minimum uptime with any credit mechanism",
+    "red_flags": ["no SLA", "no credit mechanism", "uptime measured annually"]
+  },
+  "audit": {
+    "standard": "Annual right to audit security controls with 30-day notice",
+    "acceptable_range": "Right to request SOC 2 reports; direct audit with 30 days notice",
+    "red_flags": ["no audit rights", "audit costs borne entirely by auditing party"]
+  }
+}

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #080c14;
+  --color-surface: #0f1623;
+  --color-surface-2: #161e2e;
+  --color-border: #1e2d45;
+  --color-border-2: #253650;
+
+  --color-text: #e8edf5;
+  --color-muted: #6b7fa3;
+  --color-accent: #c8a96e;   /* warm gold */
+  --color-accent-dim: #8a6e3e;
+
+  --color-high: #f04a4a;
+  --color-medium: #e8953a;
+  --color-low: #3dd68c;
+  --color-ok: #4a7fa5;
+
+  --font-serif: 'DM Serif Display', Georgia, serif;
+  --font-sans: 'DM Sans', system-ui, sans-serif;
+  --font-mono: 'DM Mono', 'Fira Code', monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--color-surface); }
+::-webkit-scrollbar-thumb { background: var(--color-border-2); border-radius: 3px; }
+
+/* Animations */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse-ring {
+  0%   { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(200,169,110,0.4); }
+  70%  { transform: scale(1);    box-shadow: 0 0 0 10px rgba(200,169,110,0); }
+  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(200,169,110,0); }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+
+@keyframes scan {
+  0%   { transform: translateY(-100%); opacity: 0.6; }
+  100% { transform: translateY(400%); opacity: 0; }
+}
+
+.fade-up { animation: fadeUp 0.4s ease both; }
+
+.risk-high  { color: var(--color-high); }
+.risk-medium { color: var(--color-medium); }
+.risk-low   { color: var(--color-low); }
+.risk-ok    { color: var(--color-ok); }
+
+.badge-high   { background: rgba(240,74,74,0.12);  color: var(--color-high);   border: 1px solid rgba(240,74,74,0.3); }
+.badge-medium { background: rgba(232,149,58,0.12); color: var(--color-medium); border: 1px solid rgba(232,149,58,0.3); }
+.badge-low    { background: rgba(61,214,140,0.10); color: var(--color-low);    border: 1px solid rgba(61,214,140,0.25); }
+.badge-ok     { background: rgba(74,127,165,0.10); color: var(--color-ok);     border: 1px solid rgba(74,127,165,0.25); }
+
+.diff-delete { background: rgba(240,74,74,0.18);  color: #ff9a9a; text-decoration: line-through; }
+.diff-insert { background: rgba(61,214,140,0.15); color: #6effc0; }

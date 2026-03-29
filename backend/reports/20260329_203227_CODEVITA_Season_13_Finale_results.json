@@ -1,0 +1,344 @@
+{
+  "saved_at": "2026-03-29T20:32:27.540749",
+  "sender": "TCS Careers <Careers@tcs.com>",
+  "subject": "CODEVITA Season 13 Finale results",
+  "report": {
+    "filename": "",
+    "total_clauses": 1,
+    "risk_score": 70,
+    "risk_counts": {
+      "High": 1,
+      "Medium": 0,
+      "Low": 0,
+      "OK": 0
+    },
+    "executive_summary": "This contract contains 1 high-risk clause(s) and 0 medium-risk clause(s) that require attention before signing. Key issues include: Clause lacks any IP ownership or licensing terms; fails to a, GDPR Art. 28 mandates a DPA for any processing of EU persona.",
+    "missing_clauses": [
+      {
+        "id": "missing_data",
+        "type": "data",
+        "heading": "Data Processing Agreement (DPA)",
+        "risk_level": "High",
+        "reason": "GDPR Art. 28 mandates a DPA for any processing of EU personal data by a processor.",
+        "regulatory_citation": "GDPR Article 28"
+      },
+      {
+        "id": "missing_sla",
+        "type": "sla",
+        "heading": "Service Level Agreement (SLA)",
+        "risk_level": "Medium",
+        "reason": "No uptime commitment or service credit mechanism found. Standard SaaS contracts include 99.9% uptime SLA.",
+        "regulatory_citation": null
+      }
+    ],
+    "clause_table": [
+      {
+        "id": "clause_1",
+        "heading": "Paragraph 1",
+        "type": "ip",
+        "risk_level": "High",
+        "risk_meta": {
+          "label": "High Risk",
+          "color": "#ef4444"
+        },
+        "reason": "Clause lacks any IP ownership or licensing terms; fails to address pre-existing IP or work-for-hire transfer per market standards.",
+        "confidence": 0.6,
+        "escalate_to_human": true,
+        "original_text": "Dear All,\r\nWe are pleased to share the successful conclusion of TCS CodeVita Season \r\n13, celebrating global coding talent and innovation.\r\nCongratulations to our winners:\r\nWinner: Zhou Jingkai\r\n1st Runner-Up: Vicente Opazo\r\n2nd Runner-Up: Jorge Valdivia\r\nThank you to everyone who contributed to making this event a success.\r\n\r\n\r\n\r\n\r\nThanks & Regards,\r\nTCS Careers Team\r\nTata Consultancy Services\r\n\r\n\r\n\r\n=====-----=====-----=====\r\nNotice: The information contained in this e-mail\r\nmessage and/or attachments to it may contain\r\nconfidential or privileged information. If you are\r\nnot the intended recipient, any dissemination, use,\r\nreview, distribution, printing or copying of the\r\ninformation contained in this e-mail message\r\nand/or attachments to it are strictly prohibited. If\r\nyou have received this communication in error,\r\nplease notify us by reply e-mail or telephone and\r\nimmediately and permanently delete the message\r\nand any attachments. Thank you",
+        "redline": "Dear All,\n\nWe are pleased to share the successful conclusion of TCS CodeVita Season 13, celebrating global coding talent and innovation.\n\nCongratulations to our winners:\nWinner: Zhou Jingkai\n1st Runner-Up: Vicente Opazo2nd Runner-Up: Jorge ValdiviaThank you to everyone who contributed to making this event a success.\n\nAs part of your participation, you agree that any new code, inventions, or other intellectual property you create specifically for this competition will be owned by TCS. You also give TCS permission to use any of your pre\u2011existing code or ideas that you include in your submission, solely for the purpose of running the competition and for related publicity. You confirm that you have the right to share any pre\u2011existing material you use.\n\nThanks & Regards,\nTCS Careers Team\nTata Consultancy Services\n\n=====-----=====-----=====\nNotice: The information contained in this e-mail\nmessage and/or attachments to it may contain\nconfidential or privileged information. If you are\nnot the intended recipient, any dissemination, use,\nreview, distribution, printing or copying of the\ninformation contained in this e-mail messageand/or attachments to it are strictly prohibited. If\nyou have received this communication in error,\nplease notify us by reply e-mail or telephone andimmediately and permanently delete the message\nand any attachments. Thank you",
+        "diff": [
+          {
+            "op": "equal",
+            "text": "Dear All,"
+          },
+          {
+            "op": "delete",
+            "text": "\r"
+          },
+          {
+            "op": "insert",
+            "text": "\n"
+          },
+          {
+            "op": "equal",
+            "text": "\nWe are pleased to share the successful conclusion of TCS CodeVita Season "
+          },
+          {
+            "op": "delete",
+            "text": "\r\n"
+          },
+          {
+            "op": "equal",
+            "text": "13, celebrating global coding talent and innovation."
+          },
+          {
+            "op": "delete",
+            "text": "\r"
+          },
+          {
+            "op": "insert",
+            "text": "\n"
+          },
+          {
+            "op": "equal",
+            "text": "\nCongratulations to our winners:"
+          },
+          {
+            "op": "delete",
+            "text": "\r"
+          },
+          {
+            "op": "equal",
+            "text": "\nWinner: Zhou Jingkai"
+          },
+          {
+            "op": "delete",
+            "text": "\r"
+          },
+          {
+            "op": "equal",
+            "text": "\n1st Runner-Up: Vicente Opazo"
+          },
+          {
+            "op": "delete",
+            "text": "\r\n"
+          },
+          {
+            "op": "equal",
+            "text": "2nd Runner-Up: Jorge Valdivia"
+          },
+          {
+            "op": "delete",
+            "text": "\r\n"
+          },
+          {
+            "op": "equal",
+            "text": "Thank you to everyone who contributed to making this event a success."
+          },
+          {
+            "op": "delete",
+            "text": "\r\n\r\n\r\n\r\n\r"
+          },
+          {
+            "op": "insert",
+            "text": "\n\nAs part of your participation, you agree that any new code, inventions, or other intellectual property you create specifically for this competition will be owned by TCS. You also give TCS permission to use any of your pre\u2011existing code or ideas that you include in your submission, solely for the purpose of running the competition and for related publicity. You confirm that you have the right to share any pre\u2011existing material you use.\n"
+          },
+          {
+            "op": "equal",
+            "text": "\nThanks & Regards,"
+          },
+          {
+            "op": "delete",
+            "text": "\r"
+          },
+          {
+            "op": "equal",
+            "text": "\nTCS Careers Team"
+          },
+          {
+            "op": "delete",
+            "text": "\r"
+          },
+          {
+            "op": "equal",
+            "text": "\nTata Consultancy Services"
+          },
+          {
+            "op": "delete",
+            "text": "\r\n\r\n\r\n\r"
+          },
+          {
+            "op": "insert",
+            "text": "\n"
+          },
+          {
+            "op": "equal",
+            "text": "\n=====-----=====-----====="
+          },
+          {
+            "op": "delete",
+            "text": "\r"
+          },
+          {
+            "op": "equal",
+            "text": "\nNotice: The information contained in this e-mail"
+          },
+          {
+            "op": "delete",
+            "text": "\r"
+          },
+          {
+            "op": "equal",
+            "text": "\nmessage and/or attachments to it may contain"
+          },
+          {
+            "op": "delete",
+            "text": "\r"
+          },
+          {
+            "op": "equal",
+            "text": "\nconfidential or privileged information. If you are"
+          },
+          {
+            "op": "delete",
+            "text": "\r"
+          },
+          {
+            "op": "equal",
+            "text": "\nnot the intended recipient, any dissemination, use,"
+          },
+          {
+            "op": "delete",
+            "text": "\r"
+          },
+          {
+            "op": "equal",
+            "text": "\nreview, distribution, printing or copying of the"
+          },
+          {
+            "op": "delete",
+            "text": "\r"
+          },
+          {
+            "op": "equal",
+            "text": "\ninformation contained in this e-mail message"
+          },
+          {
+            "op": "delete",
+            "text": "\r\n"
+          },
+          {
+            "op": "equal",
+            "text": "and/or attachments to it are strictly prohibited. If"
+          },
+          {
+            "op": "delete",
+            "text": "\r"
+          },
+          {
+            "op": "equal",
+            "text": "\nyou have received this communication in error,"
+          },
+          {
+            "op": "delete",
+            "text": "\r"
+          },
+          {
+            "op": "equal",
+            "text": "\nplease notify us by reply e-mail or telephone and"
+          },
+          {
+            "op": "delete",
+            "text": "\r\n"
+          },
+          {
+            "op": "equal",
+            "text": "immediately and permanently delete the message"
+          },
+          {
+            "op": "delete",
+            "text": "\r"
+          },
+          {
+            "op": "equal",
+            "text": "\nand any attachments. Thank you"
+          }
+        ],
+        "redline_reason": "Added clear IP ownership and licensing terms to address the missing provisions about pre\u2011existing IP and work\u2011for\u2011hire transfer.",
+        "regulatory_citation": null,
+        "regulatory_note": null,
+        "playbook_check": {
+          "violated": true,
+          "standard": "Vendor retains all pre-existing IP; only custom work-for-hire transfers",
+          "acceptable_range": "Vendor grants broad licence for deliverables; full assignment only for bespoke work"
+        },
+        "is_missing": false
+      },
+      {
+        "id": "missing_data",
+        "heading": "MISSING: Data Processing Agreement (DPA)",
+        "type": "data",
+        "risk_level": "High",
+        "risk_meta": {
+          "label": "High Risk",
+          "color": "#ef4444"
+        },
+        "reason": "GDPR Art. 28 mandates a DPA for any processing of EU personal data by a processor.",
+        "confidence": 1.0,
+        "escalate_to_human": false,
+        "original_text": "",
+        "redline": null,
+        "diff": null,
+        "redline_reason": "GDPR Art. 28 mandates a DPA for any processing of EU personal data by a processor.",
+        "regulatory_citation": "GDPR Article 28",
+        "regulatory_note": null,
+        "playbook_check": {
+          "violated": true,
+          "standard": "A Data Processing Agreement must be in place before any EU personal data is processed.",
+          "acceptable_range": ""
+        },
+        "is_missing": true
+      },
+      {
+        "id": "missing_sla",
+        "heading": "MISSING: Service Level Agreement (SLA)",
+        "type": "sla",
+        "risk_level": "Medium",
+        "risk_meta": {
+          "label": "Medium Risk",
+          "color": "#f59e0b"
+        },
+        "reason": "No uptime commitment or service credit mechanism found. Standard SaaS contracts include 99.9% uptime SLA.",
+        "confidence": 1.0,
+        "escalate_to_human": false,
+        "original_text": "",
+        "redline": null,
+        "diff": null,
+        "redline_reason": "No uptime commitment or service credit mechanism found. Standard SaaS contracts include 99.9% uptime SLA.",
+        "regulatory_citation": null,
+        "regulatory_note": null,
+        "playbook_check": {
+          "violated": true,
+          "standard": "SaaS contracts should include a minimum 99.9% uptime SLA with service credits.",
+          "acceptable_range": ""
+        },
+        "is_missing": true
+      }
+    ],
+    "action_checklist": [
+      {
+        "priority": "High",
+        "category": "ip",
+        "clause_id": "clause_1",
+        "clause_heading": "Paragraph 1",
+        "action": "Carve out pre-existing IP and general know-how from the IP assignment clause.",
+        "redline_available": true,
+        "redline_reason": "Added clear IP ownership and licensing terms to address the missing provisions about pre\u2011existing IP and work\u2011for\u2011hire transfer.",
+        "is_missing": false
+      },
+      {
+        "priority": "High",
+        "category": "data",
+        "clause_id": "missing_data",
+        "clause_heading": "MISSING: Data Processing Agreement (DPA)",
+        "action": "Add a GDPR-compliant Data Processing Agreement (DPA) annex or standalone agreement.",
+        "redline_available": false,
+        "redline_reason": "GDPR Art. 28 mandates a DPA for any processing of EU personal data by a processor.",
+        "is_missing": true
+      },
+      {
+        "priority": "Medium",
+        "category": "sla",
+        "clause_id": "missing_sla",
+        "clause_heading": "MISSING: Service Level Agreement (SLA)",
+        "action": "Add SLA with 99.9% uptime commitment and service credits.",
+        "redline_available": false,
+        "redline_reason": "No uptime commitment or service credit mechanism found. Standard SaaS contracts include 99.9% uptime SLA.",
+        "is_missing": true
+      }
+    ],
+    "escalated_clauses": [
+      "clause_1"
+    ]
+  }
+}
