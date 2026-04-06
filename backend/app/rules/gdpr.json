@@ -1,0 +1,40 @@
+{
+  "jurisdiction": "EU / GDPR",
+  "version": "1.0",
+  "required_clause_types": [
+    {
+      "type": "data",
+      "label": "Data Processing Agreement (DPA)",
+      "risk_level": "High",
+      "reason": "GDPR Art. 28 mandates a DPA for any processing of EU personal data by a processor.",
+      "citation": "GDPR Article 28",
+      "standard": "A Data Processing Agreement must be in place before any EU personal data is processed."
+    },
+    {
+      "type": "sla",
+      "label": "Service Level Agreement (SLA)",
+      "risk_level": "Medium",
+      "reason": "No uptime commitment or service credit mechanism found. Standard SaaS contracts include 99.9% uptime SLA.",
+      "citation": null,
+      "standard": "SaaS contracts should include a minimum 99.9% uptime SLA with service credits."
+    }
+  ],
+  "clause_rules": {
+    "data": {
+      "citation": "GDPR Article 28 — Processor",
+      "note": "Controller must only use processors providing sufficient guarantees to implement appropriate technical and organisational measures."
+    },
+    "ip": {
+      "citation": null,
+      "note": null
+    },
+    "liability": {
+      "citation": null,
+      "note": null
+    },
+    "governing_law": {
+      "citation": "GDPR Article 79 — Right to an effective judicial remedy against a controller or processor",
+      "note": "EU data subjects have rights to remedy in their country of habitual residence."
+    }
+  }
+}

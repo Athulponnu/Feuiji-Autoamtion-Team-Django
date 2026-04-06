@@ -1,0 +1,136 @@
+{
+  "saved_at": "2026-03-29T23:14:40.768356",
+  "sender": "\"ixigo.com\" <no-reply@ixigo.com>",
+  "subject": "Your Kacheguda - Yesvantpur Jn train booking is successful. PNR: 2833904967",
+  "report": {
+    "filename": "Invoice_IXITRS973373199680102.pdf",
+    "total_clauses": 1,
+    "risk_score": 98,
+    "risk_counts": {
+      "High": 0,
+      "Medium": 0,
+      "Low": 1,
+      "OK": 0
+    },
+    "executive_summary": "This contract appears low-risk. Review flagged clauses and consult legal counsel if needed.",
+    "missing_clauses": [
+      {
+        "id": "missing_data",
+        "type": "data",
+        "heading": "Data Processing Agreement (DPA)",
+        "risk_level": "High",
+        "reason": "GDPR Art. 28 mandates a DPA for any processing of EU personal data by a processor.",
+        "regulatory_citation": "GDPR Article 28"
+      },
+      {
+        "id": "missing_sla",
+        "type": "sla",
+        "heading": "Service Level Agreement (SLA)",
+        "risk_level": "Medium",
+        "reason": "No uptime commitment or service credit mechanism found. Standard SaaS contracts include 99.9% uptime SLA.",
+        "regulatory_citation": null
+      }
+    ],
+    "clause_table": [
+      {
+        "id": "clause_1",
+        "heading": "Paragraph 1",
+        "type": "ip",
+        "risk_level": "Low",
+        "risk_meta": {
+          "label": "Low Risk",
+          "color": "#22c55e"
+        },
+        "reason": "Error during assessment: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to",
+        "confidence": 0.0,
+        "escalate_to_human": true,
+        "original_text": "Tax Invoice: IXI0000108971361\nLE TRAVENUES TECHNOLOGY LTD\nCIN no : L63000HR2006PLC071540\n2nd floor, Veritas Building, Behind Ibis Hotel, Sector 53, Golf Course Road,\nGurgaon, Haryana, 122002 \nBooking Id: IXITRS973373199680102\n Details Of Supplier : Le Travenues Technology \nLimited\nGSTIN : 06AABCL1932G1ZVInvoice date and time : 2026-03-29 22:44\nPlace of Supply : KERALA\nDetails Of Receiver (Billed To)\nName :\nAddress :\nState :\nState Code :\nGSTIN / Unique ID:Athul\nWCFR+RFR, Echurkottam, Munderi, Idayilpeedika, Kerala 670592, India KERALA KERALA \n670592\nKERALA\n32\n-\nS \nNo.Description Of ServicesSAC \nCodeTotal Taxable ValueCGST\n Rate\nAmountSGST/UGST\n Rate\nAmountIGST\n Rate\nAmount\n1Agent Service Charge 998551 20 16.95 N.A N.A N.A N.A 18.0% 3.05\n2Payment Gateway Charge 998551 0 0.00 N.A N.A N.A N.A 18.0% N.A\n3Alternate Travel Plan \nCharge998551 1195 1012.71 N.A N.A N.A N.A 18.0% 182.29\n4Round Off Charge 998551 0.30 0.25 N.A N.A N.A N.A 18.0% 0.05\nTotal 1215.30 1029.91 N.A N.A N.A N.A 18.0% 185.39\nInvoice Total (In Words) :\nRupees One Thousand Two Hundred Fifteen and Thirty Paisa OnlyInvoice Total :\n1215.30\nCertified that the particulars above are true and correct and the amount indicated :\n1) Represents the price actually charged and that there is no additional consideration directly or \nindirectly.\n2) No tax is payable under reverse charge for this invoice.\nTERMS OF SALE :\na) All dispute subject to Gurugram Jurisdiction.For LE TRAVENUES TECHNOLOGY \nLTD\nAuthorised Signatory",
+        "redline": null,
+        "diff": null,
+        "redline_reason": null,
+        "regulatory_citation": null,
+        "regulatory_note": null,
+        "playbook_check": {
+          "violated": false,
+          "standard": "Vendor retains all pre-existing IP; only custom work-for-hire transfers"
+        },
+        "is_missing": false
+      },
+      {
+        "id": "missing_data",
+        "heading": "MISSING: Data Processing Agreement (DPA)",
+        "type": "data",
+        "risk_level": "High",
+        "risk_meta": {
+          "label": "High Risk",
+          "color": "#ef4444"
+        },
+        "reason": "GDPR Art. 28 mandates a DPA for any processing of EU personal data by a processor.",
+        "confidence": 1.0,
+        "escalate_to_human": false,
+        "original_text": "",
+        "redline": null,
+        "diff": null,
+        "redline_reason": "GDPR Art. 28 mandates a DPA for any processing of EU personal data by a processor.",
+        "regulatory_citation": "GDPR Article 28",
+        "regulatory_note": null,
+        "playbook_check": {
+          "violated": true,
+          "standard": "A Data Processing Agreement must be in place before any EU personal data is processed.",
+          "acceptable_range": ""
+        },
+        "is_missing": true
+      },
+      {
+        "id": "missing_sla",
+        "heading": "MISSING: Service Level Agreement (SLA)",
+        "type": "sla",
+        "risk_level": "Medium",
+        "risk_meta": {
+          "label": "Medium Risk",
+          "color": "#f59e0b"
+        },
+        "reason": "No uptime commitment or service credit mechanism found. Standard SaaS contracts include 99.9% uptime SLA.",
+        "confidence": 1.0,
+        "escalate_to_human": false,
+        "original_text": "",
+        "redline": null,
+        "diff": null,
+        "redline_reason": "No uptime commitment or service credit mechanism found. Standard SaaS contracts include 99.9% uptime SLA.",
+        "regulatory_citation": null,
+        "regulatory_note": null,
+        "playbook_check": {
+          "violated": true,
+          "standard": "SaaS contracts should include a minimum 99.9% uptime SLA with service credits.",
+          "acceptable_range": ""
+        },
+        "is_missing": true
+      }
+    ],
+    "action_checklist": [
+      {
+        "priority": "High",
+        "category": "data",
+        "clause_id": "missing_data",
+        "clause_heading": "MISSING: Data Processing Agreement (DPA)",
+        "action": "Add a GDPR-compliant Data Processing Agreement (DPA) annex or standalone agreement.",
+        "redline_available": false,
+        "redline_reason": "GDPR Art. 28 mandates a DPA for any processing of EU personal data by a processor.",
+        "is_missing": true
+      },
+      {
+        "priority": "Medium",
+        "category": "sla",
+        "clause_id": "missing_sla",
+        "clause_heading": "MISSING: Service Level Agreement (SLA)",
+        "action": "Add SLA with 99.9% uptime commitment and service credits.",
+        "redline_available": false,
+        "redline_reason": "No uptime commitment or service credit mechanism found. Standard SaaS contracts include 99.9% uptime SLA.",
+        "is_missing": true
+      }
+    ],
+    "escalated_clauses": [
+      "clause_1"
+    ]
+  }
+}

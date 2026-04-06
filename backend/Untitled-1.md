@@ -1,0 +1,30 @@
+```
+└── 📁frontend
+    └── 📁public
+        ├── favicon.svg
+    └── 📁src
+        └── 📁api
+            ├── client.js
+        └── 📁components
+            ├── ActionChecklist.jsx
+            ├── ClauseTable.jsx
+            ├── DiffView.jsx
+            ├── MissingClauses.jsx
+            ├── PipelineProgress.jsx
+            ├── RiskScorecard.jsx
+        └── 📁pages
+            ├── ContractCreatorPage.jsx
+            ├── DashboardPage.jsx
+            ├── ResultsPage.jsx
+            ├── UploadPage.jsx
+        ├── App.jsx
+        ├── index.css
+        ├── main.jsx
+        ├── store.js
+    ├── .dockerignore
+    ├── .env
+    ├── index.html
+    ├── package-lock.json
+    ├── package.json
+    └── vite.config.js
+```

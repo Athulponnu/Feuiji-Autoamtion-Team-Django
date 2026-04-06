@@ -1,0 +1,110 @@
+{
+  "saved_at": "2026-03-29T20:36:05.526346",
+  "sender": "Athul KK <athul0770@gmail.com>",
+  "subject": "contract",
+  "report": {
+    "filename": "",
+    "total_clauses": 0,
+    "risk_score": 100,
+    "risk_counts": {
+      "High": 0,
+      "Medium": 0,
+      "Low": 0,
+      "OK": 0
+    },
+    "executive_summary": "This contract appears low-risk. Review flagged clauses and consult legal counsel if needed.",
+    "missing_clauses": [
+      {
+        "id": "missing_data",
+        "type": "data",
+        "heading": "Data Processing Agreement (DPA)",
+        "risk_level": "High",
+        "reason": "GDPR Art. 28 mandates a DPA for any processing of EU personal data by a processor.",
+        "regulatory_citation": "GDPR Article 28"
+      },
+      {
+        "id": "missing_sla",
+        "type": "sla",
+        "heading": "Service Level Agreement (SLA)",
+        "risk_level": "Medium",
+        "reason": "No uptime commitment or service credit mechanism found. Standard SaaS contracts include 99.9% uptime SLA.",
+        "regulatory_citation": null
+      }
+    ],
+    "clause_table": [
+      {
+        "id": "missing_data",
+        "heading": "MISSING: Data Processing Agreement (DPA)",
+        "type": "data",
+        "risk_level": "High",
+        "risk_meta": {
+          "label": "High Risk",
+          "color": "#ef4444"
+        },
+        "reason": "GDPR Art. 28 mandates a DPA for any processing of EU personal data by a processor.",
+        "confidence": 1.0,
+        "escalate_to_human": false,
+        "original_text": "",
+        "redline": null,
+        "diff": null,
+        "redline_reason": "GDPR Art. 28 mandates a DPA for any processing of EU personal data by a processor.",
+        "regulatory_citation": "GDPR Article 28",
+        "regulatory_note": null,
+        "playbook_check": {
+          "violated": true,
+          "standard": "A Data Processing Agreement must be in place before any EU personal data is processed.",
+          "acceptable_range": ""
+        },
+        "is_missing": true
+      },
+      {
+        "id": "missing_sla",
+        "heading": "MISSING: Service Level Agreement (SLA)",
+        "type": "sla",
+        "risk_level": "Medium",
+        "risk_meta": {
+          "label": "Medium Risk",
+          "color": "#f59e0b"
+        },
+        "reason": "No uptime commitment or service credit mechanism found. Standard SaaS contracts include 99.9% uptime SLA.",
+        "confidence": 1.0,
+        "escalate_to_human": false,
+        "original_text": "",
+        "redline": null,
+        "diff": null,
+        "redline_reason": "No uptime commitment or service credit mechanism found. Standard SaaS contracts include 99.9% uptime SLA.",
+        "regulatory_citation": null,
+        "regulatory_note": null,
+        "playbook_check": {
+          "violated": true,
+          "standard": "SaaS contracts should include a minimum 99.9% uptime SLA with service credits.",
+          "acceptable_range": ""
+        },
+        "is_missing": true
+      }
+    ],
+    "action_checklist": [
+      {
+        "priority": "High",
+        "category": "data",
+        "clause_id": "missing_data",
+        "clause_heading": "MISSING: Data Processing Agreement (DPA)",
+        "action": "Add a GDPR-compliant Data Processing Agreement (DPA) annex or standalone agreement.",
+        "redline_available": false,
+        "redline_reason": "GDPR Art. 28 mandates a DPA for any processing of EU personal data by a processor.",
+        "is_missing": true
+      },
+      {
+        "priority": "Medium",
+        "category": "sla",
+        "clause_id": "missing_sla",
+        "clause_heading": "MISSING: Service Level Agreement (SLA)",
+        "action": "Add SLA with 99.9% uptime commitment and service credits.",
+        "redline_available": false,
+        "redline_reason": "No uptime commitment or service credit mechanism found. Standard SaaS contracts include 99.9% uptime SLA.",
+        "is_missing": true
+      }
+    ],
+    "escalated_clauses": []
+  }
+}

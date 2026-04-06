@@ -1,0 +1,136 @@
+{
+  "saved_at": "2026-03-30T09:36:16.786689",
+  "sender": "BSE ALERTS <info@bseindia.in>",
+  "subject": "Funds / Securities Balance",
+  "report": {
+    "filename": "",
+    "total_clauses": 1,
+    "risk_score": 98,
+    "risk_counts": {
+      "High": 0,
+      "Medium": 0,
+      "Low": 1,
+      "OK": 0
+    },
+    "executive_summary": "This contract appears low-risk. Review flagged clauses and consult legal counsel if needed.",
+    "missing_clauses": [
+      {
+        "id": "missing_data",
+        "type": "data",
+        "heading": "Data Processing Agreement (DPA)",
+        "risk_level": "High",
+        "reason": "GDPR Art. 28 mandates a DPA for any processing of EU personal data by a processor.",
+        "regulatory_citation": "GDPR Article 28"
+      },
+      {
+        "id": "missing_sla",
+        "type": "sla",
+        "heading": "Service Level Agreement (SLA)",
+        "risk_level": "Medium",
+        "reason": "No uptime commitment or service credit mechanism found. Standard SaaS contracts include 99.9% uptime SLA.",
+        "regulatory_citation": null
+      }
+    ],
+    "clause_table": [
+      {
+        "id": "clause_1",
+        "heading": "Paragraph 1",
+        "type": "liability",
+        "risk_level": "Low",
+        "risk_meta": {
+          "label": "Low Risk",
+          "color": "#22c55e"
+        },
+        "reason": "Error during assessment: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to",
+        "confidence": 0.0,
+        "escalate_to_human": true,
+        "original_text": "Dear Investor,\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\tWith reference to BSE notices 20210922-64 dated September 22, 2021 and 20211022-44 dated October 22, 2021, Stock Brokers are required to upload segregation and monitoring of collateral at client level on daily basis.\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\r\r\n\t\t\tYour Stockbroker GROWW INVEST TECH PRIVATE LIMITED has reported the details of Funds balance and Securities balance as on 27/02/2026 to Clearing Corporations, is attached.\r\r\n\t\t\t\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\tPlease follow the procedure given below for opening the attachment:\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u00a0 \u00a0 \u00a0 \u00a0 \u00a01. Click on the attachment provided with this email.\r\r\n\t\t\t\u00a0 \u00a0 \u00a0 \u00a0 \u00a02. You will be prompted for your password.\r\r\n\t\t\t\u00a0 \u00a0 \u00a0 \u00a0 \u00a03. The password is your PAN in upper case\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\r\r\n\t\t\tPlease note that negative number in the file represents debit balance/balance payable by you. Also, the funds and securities balances provided are what is maintained with your broker and does not include balance in your personal bank account and demat account.\r\r\n\t\t\t\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\tYours faithfully,\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\tBSE Limited\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\tIn case you find any discrepancy, we advise you to take up the matter immediately with your member. You may contact your stock broker at SUPPORT@GROWW.IN or 9108800604. \u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t \r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\tInvestor may follow the BSE Social Media Handles for Investor education: \r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t \r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\r\r\n\t\t\t\tLinkedIn:          https://www.linkedin.com/company/bseindia\r\r\n\t\t\t\tTwitter:           https://twitter.com/BSEIndia\r\r\n\t\t\t\tYouTube:         https://www.youtube.com/user/BSEworld\r\r\n\t\t\t\tFacebook:        http://www.facebook.com/bseindia\r\r\n\t\t\t\tInstagram:       http://instagram.com/bseindia\r\r\n\r\r\n\t\t\t\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\r\r\n\t\t\tDo's & Dont's\r\r\n\r\r\n\t\t\t1. Deal only with registered intermediaries - check the registration certificate of the intermediary you are dealing with. It allows recourse to regulatory action.\r\r\n\r\r\n\t\t\t2. Beware of fixed/guaranteed returns schemes. Brokers or any of their representatives are not authorized to offer fixed/guaranteed returns on your investment or enter into any loan agreement to pay interest on the funds/securities offered by you.\r\r\n\r\r\n\t\t\t3. Do not fall prey to emails and SMSs luring you to trade in stock/ securities promising huge profits.\r\r\n\r\r\n\t\t\t4. Ensure to fill all the required details in KYC document by yourself and receive duly signed copy of your KYC documents from your broker. Check for all conditions that have been agreed and accepted by you.\r\r\n\r\r\n\t\t\t5. Opt for electronic (e-mail) contract notes/financial statements only if you are computer savvy and have an e-mail account of your own. Don't ignore any e-mails/SMSs received with regards to trades done by you. Verify the details of the same and report discrepancy, if any, to your broker in writing immediately\r\r\n\r\r\n\t\t\t6. Trade verification facility is also available on BSE website.\r\r\n\r\r\n\t\t\t7. Check the frequency of accounts settlement opted for and verify your monthly/quarterly settlement statements. Any discrepancies observed therein should be brought to the notice of your broker in writing immediately.\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\r\r\n\t\t\t\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u00a0 \u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\tFor Awareness of Investors \u2013\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u0928\u093f\u0935\u0947\u0936\u0915\u094b\u0902 \u0915\u0940 \u091c\u093e\u0917\u0930\u0942\u0915\u0924\u093e \u0915\u0947 \u0932\u093f\u090f \u2013\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\tYou are requested to take note of the Exchange\u2019s norms with respect to claims against trading members who have been declared as defaulters. The said norms are available on Exchange website under Investor section. The link of the same is given below:\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u0906\u092a\u0938\u0947 \u0905\u0928\u0941\u0930\u094b\u0927 \u0939\u0948 \u0915\u093f \u091f\u094d\u0930\u0947\u0921\u093f\u0902\u0917 \u092e\u0947\u0902\u092c\u0930 \u091c\u093f\u0928\u094d\u0939\u0947\u0902 \u0921\u093f\u092b\u0949\u0932\u094d\u091f\u0930 \u0918\u094b\u0937\u093f\u0924 \u0915\u093f\u092f\u093e \u0917\u092f\u093e \u0939\u0948 \u0909\u0928\u0915\u0947 \u0916\u093f\u0932\u093e\u092b \u0926\u093e\u0935\u0947 \u0915\u0947 \u0938\u0902\u092c\u0902\u0927 \u092e\u0947\u0902 \u0906\u092a \u090f\u0915\u094d\u0938\u091a\u0947\u0902\u091c \u0915\u0947 \u092e\u093e\u0928\u0926\u0902\u0921\u094b\u0902 \u0915\u093e \u0927\u094d\u092f\u093e\u0928 \u0930\u0916\u0947\u0902 |\u0909\u0915\u094d\u0924 \u092e\u093e\u0928\u0926\u0902\u0921 \u090f\u0915\u094d\u0938\u091a\u0947\u0902\u091c \u0915\u093f \u0935\u0947\u092c\u0938\u093e\u0907\u091f \u092a\u0930 \u0909\u092a\u0932\u092c\u094d\u0927 \u0939\u0948\u0902 | \u0909\u0938\u0940 \u0915\u093e \u0932\u093f\u0902\u0915 \u0928\u0940\u091a\u0947 \u0926\u093f\u092f\u093e \u0917\u092f\u093e \u0939\u0948:\u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\tNorms with respect to claims against Trading members who disabled / suspended /declared defaulter prior to September 4, 2022:\u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t4 \u0938\u093f\u0924\u0902\u092c\u0930, 2022 \u0938\u0947 \u092a\u0939\u0932\u0947 \u0905\u0915\u094d\u0937\u092e / \u0928\u093f\u0932\u0902\u092c\u093f\u0924 / \u0921\u093f\u092b\u0949\u0932\u094d\u091f\u0930 \u0918\u094b\u0937\u093f\u0924 \u0915\u093f\u092f\u0947 \u0917\u090f \u091f\u094d\u0930\u0947\u0921\u093f\u0902\u0917 \u092e\u0947\u0902\u092c\u0930 \u0915\u0947 \u0916\u093f\u0932\u093e\u092b \u0926\u093e\u0935\u094b\u0902 \u0915\u0947 \u0938\u0902\u092c\u0902\u0927 \u092e\u0947\u0902 \u092e\u093e\u0928\u0926\u0902\u0921:\u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\thttps://www.bseindia.com/downloads1/Normseligibilityclaimsdefaultermember.pdf\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\tAmended Norms with respect to claims against Trading members who disabled / suspended /declared defaulter post  September 4, 2022: \r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t4 \u0938\u093f\u0924\u0902\u092c\u0930, 2022 \u0915\u0947 \u092c\u093e\u0926 \u0905\u0915\u094d\u0937\u092e/\u0928\u093f\u0932\u0902\u092c\u093f\u0924/ \u0921\u093f\u092b\u0949\u0932\u094d\u091f\u0930 \u0918\u094b\u0937\u093f\u0924 \u0915\u093f\u092f\u0947 \u0917\u090f \u091f\u094d\u0930\u0947\u0921\u093f\u0902\u0917 \u092e\u0947\u0902\u092c\u0930 \u0915\u0947 \u0916\u093f\u0932\u093e\u092b \u0926\u093e\u0935\u094b\u0902 \u0915\u0947 \u0938\u0902\u092c\u0902\u0927 \u092e\u0947\u0902 \u0938\u0902\u0936\u094b\u0927\u093f\u0924 \u092e\u093e\u0928\u0926\u0902\u0921: \r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\thttps://www.bseindia.com/markets/MarketInfo/DispNewNoticesCirculars.aspx?page=20220819-32\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\tThe list of trading members who have been declared as defaulters is available at the following link:\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u091c\u093f\u0928 \u091f\u094d\u0930\u0947\u0921\u093f\u0902\u0917 \u092e\u0947\u0902\u092c\u0930 \u0915\u094b \u0921\u093f\u092b\u0949\u0932\u094d\u091f\u0930 \u0918\u094b\u0937\u093f\u0924 \u0915\u093f\u092f\u093e \u0917\u092f\u093e \u0939\u0948, \u0909\u0928\u0915\u0940 \u0938\u0942\u091a\u0940 \u0928\u093f\u092e\u094d\u0928 \u0932\u093f\u0902\u0915 \u092a\u0930 \u0909\u092a\u0932\u092c\u094d\u0927 \u0939\u0948 |\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\thttps://www.bseindia.com/static/members/List_defaulters_Expelled_members.aspx\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\tPS: In case of any doubt/query in Hindi translation please rely on English version.\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u091f\u0940\u092a: \u0905\u0917\u0930 \u0906\u092a\u0915\u094b \u0939\u093f\u0902\u0926\u0940 \u0905\u0928\u0941\u0935\u093e\u0926 \u092e\u0947\u0902 \u0915\u094b\u0908 \u0938\u0902\u0926\u0947\u0939 \u0939\u0948 \u0924\u094b \u0915\u0943\u092a\u092f\u093e \u0905\u0902\u0917\u094d\u0930\u0947\u091c\u0940 \u0938\u0902\u0938\u094d\u0915\u0930\u0923 \u0915\u093e \u0938\u0902\u0926\u0930\u094d\u092d \u0932\u0947\u0902\u0964\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\r\r\n\t\t\tThe data is being provided to the clients on an \u201cas is\u201d and \u201cwhere-is\u201d basis, without any warranty. The Exchange shall not be \u00a0liable for any delay or any other interruption which may occur in providing the data due to any reason including network (Internet) reasons or snags in the system, break down of the system or any other equipment, server breakdown, maintenance shutdown, breakdown of communication services or inability of the Exchange to send the data. In no event shall the Exchange be liable for any damages, including without limitation direct or indirect, special, incidental, or consequential damages, losses or expenses arising in connection with the data provided by the Exchange through this facility.\r\r\n\r\r\n\t\t\tYou are requested to note that in the event of trading member being declared as defaulter, all transactions executed on the exchange trading platform within 90 calendar days prior to the effective date of disablement of the trading member or after the latest monthly/quarterly settlement date, if any, in respect of the claimant whichever is later shall be considered eligible for compensation from IPF subject to Rules, Byelaws, Regulations, guidelines etc. of the Exchange and SEBI circulars and subject to the norms laid down by the relevant Committee.\r\r\n\r\r\n\t\t\tNow keep abreast with the happenings of the stock market on your Android Phone. BSEIndia's New Mobile App now provides many more features & also supports 9 Indian languages namely Hindi, Bengali, Gujarati, Kannada, Malayalam, Marathi, Oriya, Tamil, & Telugu.\u00a0\r\r\n\r\r\n\t\t\tLink for Android google playstore\u00a0\r\r\n\r\r\n\t\t\thttps://play.google.com/store/apps/details?id=com.cazaayan.bse.mobile&hl=en\r\r\n\r\r\n\t\t\tLink for Apple iPhone \u00a0\r\r\n\r\r\n\t\t\thttps://itunes.apple.com/us/app/bseindia-on-mobile/id808101185?ls=1&mt=8\r\r\n\r\r\n\t\t\tFeatures\r\r\n\r\r\n\t\t\tWhat's New ?\r\r\n\r\r\n\t\t\t\u2022\u00a0\u00a0 \u00a0Voice based Search\r\r\n\t\t\t\u2022\u00a0\u00a0 \u00a0Improved Layout and Navigation\r\r\n\t\t\t\u2022\u00a0\u00a0 \u00a0Customizable Home Page\r\r\n\t\t\t\u2022\u00a0\u00a0 \u00a0Introduction of Tabs\r\r\n\t\t\t\u2022\u00a0\u00a0 \u00a0Facility to Re-order Tabs\r\r\n\t\t\t\u2022\u00a0\u00a0 \u00a0Creation of Portfolio\r\r\n\t\t\t\u2022\u00a0\u00a0 \u00a0Additional Information in Get Quote like Results, Corporate Actions etc.\r\r\n\t\t\t\u2022\u00a0\u00a0 \u00a0Graph for Stock prices & Index Values with pre-defined & selectable periods, with zoom in & zoom out facility\r\r\n\t\t\t\u2022\u00a0\u00a0 \u00a0Index Overview and Index Contribution\r\r\n\t\t\t\u2022\u00a0\u00a0 \u00a0BSE CMIE Indices\r\r\n\t\t\t\u2022\u00a0\u00a0 \u00a0Sensex Heat map - All 30 securities at one go.\r\r\n\t\t\t\u2022\u00a0\u00a0 \u00a0ETFs Data\r\r\n\t\t\t\u2022\u00a0\u00a0 \u00a0Results Calendar, Board Meetings, Notices\r\r\n\t\t\t\u2022\u00a0\u00a0 \u00a0IPOs/OFS/ New Listings\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0\u00a0\r\r\n\t\t\t\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u00a0 \u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u00a0 Thanks, Regards \r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u00a0BSE \u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\u00a0 \u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\u00a0 \u00a0\u00a0\u00a0 \u00a0\r\r\n\t\t\r\r\n\t\t\r\r\n\t\t\t\r\r\n\t\t\tThis is a system generated email, do not reply to this email id.",
+        "redline": null,
+        "diff": null,
+        "redline_reason": null,
+        "regulatory_citation": null,
+        "regulatory_note": null,
+        "playbook_check": {
+          "violated": false,
+          "standard": "12-month fees paid, or $50,000 minimum"
+        },
+        "is_missing": false
+      },
+      {
+        "id": "missing_data",
+        "heading": "MISSING: Data Processing Agreement (DPA)",
+        "type": "data",
+        "risk_level": "High",
+        "risk_meta": {
+          "label": "High Risk",
+          "color": "#ef4444"
+        },
+        "reason": "GDPR Art. 28 mandates a DPA for any processing of EU personal data by a processor.",
+        "confidence": 1.0,
+        "escalate_to_human": false,
+        "original_text": "",
+        "redline": null,
+        "diff": null,
+        "redline_reason": "GDPR Art. 28 mandates a DPA for any processing of EU personal data by a processor.",
+        "regulatory_citation": "GDPR Article 28",
+        "regulatory_note": null,
+        "playbook_check": {
+          "violated": true,
+          "standard": "A Data Processing Agreement must be in place before any EU personal data is processed.",
+          "acceptable_range": ""
+        },
+        "is_missing": true
+      },
+      {
+        "id": "missing_sla",
+        "heading": "MISSING: Service Level Agreement (SLA)",
+        "type": "sla",
+        "risk_level": "Medium",
+        "risk_meta": {
+          "label": "Medium Risk",
+          "color": "#f59e0b"
+        },
+        "reason": "No uptime commitment or service credit mechanism found. Standard SaaS contracts include 99.9% uptime SLA.",
+        "confidence": 1.0,
+        "escalate_to_human": false,
+        "original_text": "",
+        "redline": null,
+        "diff": null,
+        "redline_reason": "No uptime commitment or service credit mechanism found. Standard SaaS contracts include 99.9% uptime SLA.",
+        "regulatory_citation": null,
+        "regulatory_note": null,
+        "playbook_check": {
+          "violated": true,
+          "standard": "SaaS contracts should include a minimum 99.9% uptime SLA with service credits.",
+          "acceptable_range": ""
+        },
+        "is_missing": true
+      }
+    ],
+    "action_checklist": [
+      {
+        "priority": "High",
+        "category": "data",
+        "clause_id": "missing_data",
+        "clause_heading": "MISSING: Data Processing Agreement (DPA)",
+        "action": "Add a GDPR-compliant Data Processing Agreement (DPA) annex or standalone agreement.",
+        "redline_available": false,
+        "redline_reason": "GDPR Art. 28 mandates a DPA for any processing of EU personal data by a processor.",
+        "is_missing": true
+      },
+      {
+        "priority": "Medium",
+        "category": "sla",
+        "clause_id": "missing_sla",
+        "clause_heading": "MISSING: Service Level Agreement (SLA)",
+        "action": "Add SLA with 99.9% uptime commitment and service credits.",
+        "redline_available": false,
+        "redline_reason": "No uptime commitment or service credit mechanism found. Standard SaaS contracts include 99.9% uptime SLA.",
+        "is_missing": true
+      }
+    ],
+    "escalated_clauses": [
+      "clause_1"
+    ]
+  }
+}

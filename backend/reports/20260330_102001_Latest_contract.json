@@ -1,0 +1,583 @@
+{
+  "saved_at": "2026-03-30T10:20:01.236022",
+  "sender": "Athul 789 <athulyo233@gmail.com>",
+  "subject": "Latest contract",
+  "report": {
+    "filename": "",
+    "total_clauses": 11,
+    "risk_score": 0,
+    "risk_counts": {
+      "High": 4,
+      "Medium": 0,
+      "Low": 5,
+      "OK": 2
+    },
+    "executive_summary": "This contract contains 4 high-risk clause(s) and 0 medium-risk clause(s) that require attention before signing. Key issues include: Clause provides no measurable service levels, uptime guarant, Vendor's liability cap of $500 is far below market standard , 5-day dispute window is unreasonably short; creates risk of , 90-day notice period for non-renewal is significantly longer, GDPR Art. 28 mandates a DPA for any processing of EU.",
+    "missing_clauses": [
+      {
+        "id": "missing_data",
+        "type": "data",
+        "heading": "Data Processing Agreement (DPA)",
+        "risk_level": "High",
+        "reason": "GDPR Art. 28 mandates a DPA for any processing of EU personal data by a processor.",
+        "regulatory_citation": "GDPR Article 28"
+      }
+    ],
+    "clause_table": [
+      {
+        "id": "clause_1",
+        "heading": "1. SERVICES",
+        "type": "sla",
+        "risk_level": "High",
+        "risk_meta": {
+          "label": "High Risk",
+          "color": "#ef4444"
+        },
+        "reason": "Clause provides no measurable service levels, uptime guarantees, or remedies. \"Commercially reasonable efforts\" is too vague and unenforceable. Market standard requires specific uptime percentages (e.g., 99.9%) with service credits for failures.",
+        "confidence": 0.95,
+        "escalate_to_human": false,
+        "original_text": "1. SERVICES\r\nVendor agrees to provide Client with access to the Acme SaaS Platform\r\n(\"Platform\") on the terms set out in this Agreement. Vendor will use\r\ncommercially reasonable efforts to maintain availability of the Platform.",
+        "redline": "1. SERVICES\nVendor shall provide Client with access to the Acme SaaS Platform (\"Platform\") on the terms set out in this Agreement. The Platform shall achieve an uptime of at least 99.9% each calendar month, measured as the percentage of total minutes in the month during which the Platform is operational and accessible to Client, excluding scheduled maintenance with prior notice and force majeure events. If the monthly uptime falls below 99.9%, Vendor shall credit Client's account an",
+        "diff": [
+          {
+            "op": "equal",
+            "text": "1. SERVICES"
+          },
+          {
+            "op": "delete",
+            "text": "\r"
+          },
+          {
+            "op": "equal",
+            "text": "\nVendor "
+          },
+          {
+            "op": "delete",
+            "text": "agrees to"
+          },
+          {
+            "op": "insert",
+            "text": "shall"
+          },
+          {
+            "op": "equal",
+            "text": " provide Client with access to the Acme SaaS Platform"
+          },
+          {
+            "op": "delete",
+            "text": "\r\n"
+          },
+          {
+            "op": "insert",
+            "text": " "
+          },
+          {
+            "op": "equal",
+            "text": "(\"Platform\") on the terms set out in this Agreement. "
+          },
+          {
+            "op": "delete",
+            "text": "Vendor will use\r\ncommercially reasonable efforts to maintain availability of the Platform."
+          },
+          {
+            "op": "insert",
+            "text": "The Platform shall achieve an uptime of at least 99.9% each calendar month, measured as the percentage of total minutes in the month during which the Platform is operational and accessible to Client, excluding scheduled maintenance with prior notice and force majeure events. If the monthly uptime falls below 99.9%, Vendor shall credit Client's account an"
+          }
+        ],
+        "redline_reason": "Clause rewritten to market standard.",
+        "regulatory_citation": null,
+        "regulatory_note": null,
+        "playbook_check": {
+          "violated": true,
+          "standard": "99.9% monthly uptime; service credits of 10% per 1% downtime below SLA",
+          "acceptable_range": "99.5% minimum uptime with any credit mechanism"
+        },
+        "is_missing": false
+      },
+      {
+        "id": "clause_2",
+        "heading": "2. FEES AND PAYMENT",
+        "type": "ip",
+        "risk_level": "Low",
+        "risk_meta": {
+          "label": "Low Risk",
+          "color": "#22c55e"
+        },
+        "reason": "Could not assess \u2014 defaulting to Low risk.",
+        "confidence": 0.5,
+        "escalate_to_human": true,
+        "original_text": "2. FEES AND PAYMENT\r\n2.1 Client shall pay Vendor a monthly subscription fee of $5,000 per month.\r\n2.2 Invoices are due and payable within 7 days of the invoice date. Late\r\npayments shall accrue interest at 5% per month.\r\n2.3 All fees are non-refundable.",
+        "redline": null,
+        "diff": null,
+        "redline_reason": null,
+        "regulatory_citation": null,
+        "regulatory_note": null,
+        "playbook_check": {
+          "violated": false,
+          "standard": "Vendor retains all pre-existing IP; only custom work-for-hire transfers"
+        },
+        "is_missing": false
+      },
+      {
+        "id": "clause_3",
+        "heading": "3. TERM",
+        "type": "other",
+        "risk_level": "Low",
+        "risk_meta": {
+          "label": "Low Risk",
+          "color": "#22c55e"
+        },
+        "reason": "Could not assess \u2014 defaulting to Low risk.",
+        "confidence": 0.5,
+        "escalate_to_human": true,
+        "original_text": "3. TERM\r\n3.1 This Agreement shall commence on the Effective Date and continue for an\r\ninitial term of 12 months.",
+        "redline": null,
+        "diff": null,
+        "redline_reason": null,
+        "regulatory_citation": null,
+        "regulatory_note": null,
+        "playbook_check": {
+          "violated": false,
+          "standard": ""
+        },
+        "is_missing": false
+      },
+      {
+        "id": "clause_4",
+        "heading": "4. LIMITATION OF LIABILITY",
+        "type": "liability",
+        "risk_level": "High",
+        "risk_meta": {
+          "label": "High Risk",
+          "color": "#ef4444"
+        },
+        "reason": "Vendor's liability cap of $500 is far below market standard ($50k min or 12-mo fees). Effectively eliminates Client's remedy. No exceptions for fundamntal breaches.",
+        "confidence": 0.95,
+        "escalate_to_human": false,
+        "original_text": "4. LIMITATION OF LIABILITY\r\n4.1 In no event shall either party be liable for indirect, incidental, or\r\nconsequential damages.\r\n4.2 Notwithstanding anything to the contrary, Vendor's total aggregate\r\nliability to Client for any claims arising under or related to this\r\nAgreement shall not exceed $500 (five hundred US dollars).",
+        "redline": null,
+        "diff": null,
+        "redline_reason": "Redline generation failed: 'NoneType' object has no attribute 'strip'",
+        "regulatory_citation": null,
+        "regulatory_note": null,
+        "playbook_check": {
+          "violated": true,
+          "standard": "12-month fees paid, or $50,000 minimum",
+          "acceptable_range": "6-month fees minimum; absolute floor $25,000"
+        },
+        "is_missing": false
+      },
+      {
+        "id": "clause_5",
+        "heading": "5. CONFIDENTIALITY",
+        "type": "termination",
+        "risk_level": "Low",
+        "risk_meta": {
+          "label": "Low Risk",
+          "color": "#22c55e"
+        },
+        "reason": "Could not assess \u2014 defaulting to Low risk.",
+        "confidence": 0.5,
+        "escalate_to_human": true,
+        "original_text": "5. CONFIDENTIALITY\r\n5.1 Each party agrees to keep confidential all non-public information of\r\nthe other party disclosed in connection with this Agreement.\r\n5.2 This confidentiality obligation shall survive for a period of 3 years\r\nfollowing termination of this Agreement.\r\n5.3 Confidential information shall not include information that is publicly\r\navailable or independently developed.",
+        "redline": null,
+        "diff": null,
+        "redline_reason": null,
+        "regulatory_citation": null,
+        "regulatory_note": null,
+        "playbook_check": {
+          "violated": false,
+          "standard": "30-day notice for convenience; 30-day cure period for breach"
+        },
+        "is_missing": false
+      },
+      {
+        "id": "clause_6",
+        "heading": "6. PAYMENT DISPUTES",
+        "type": "payment",
+        "risk_level": "High",
+        "risk_meta": {
+          "label": "High Risk",
+          "color": "#ef4444"
+        },
+        "reason": "5-day dispute window is unreasonably short; creates risk of waiving legitimate billing disputes. Market standard is typically 30+ days.",
+        "confidence": 0.95,
+        "escalate_to_human": false,
+        "original_text": "6. PAYMENT DISPUTES\r\n6.1 Client must raise any payment dispute in writing within 5 days of\r\nreceiving an invoice. Disputes not raised within this period are deemed\r\nwaived.",
+        "redline": "6. PAYMENT DISPUTES\n6.1 Client must submit any payment dispute in writing within 30 days of receiving an invoice. Disputes not raised within this period are waived.",
+        "diff": [
+          {
+            "op": "equal",
+            "text": "6. PAYMENT DISPUTES"
+          },
+          {
+            "op": "delete",
+            "text": "\r"
+          },
+          {
+            "op": "equal",
+            "text": "\n6.1 Client must "
+          },
+          {
+            "op": "delete",
+            "text": "raise"
+          },
+          {
+            "op": "insert",
+            "text": "submit"
+          },
+          {
+            "op": "equal",
+            "text": " any payment dispute in writing within "
+          },
+          {
+            "op": "delete",
+            "text": "5"
+          },
+          {
+            "op": "insert",
+            "text": "30"
+          },
+          {
+            "op": "equal",
+            "text": " days of"
+          },
+          {
+            "op": "delete",
+            "text": "\r\n"
+          },
+          {
+            "op": "insert",
+            "text": " "
+          },
+          {
+            "op": "equal",
+            "text": "receiving an invoice. Disputes not raised within this period are "
+          },
+          {
+            "op": "delete",
+            "text": "deemed\r\n"
+          },
+          {
+            "op": "equal",
+            "text": "waived."
+          }
+        ],
+        "redline_reason": "The change extends the dispute window from 5 to 30 days to align with common market practice and ensure clients have sufficient time to identify and raise legitimate billing issues without risk of automatic waiver.",
+        "regulatory_citation": null,
+        "regulatory_note": null,
+        "playbook_check": {
+          "violated": true,
+          "standard": "Net-30 from invoice date",
+          "acceptable_range": "Net-15 to Net-45"
+        },
+        "is_missing": false
+      },
+      {
+        "id": "clause_7",
+        "heading": "7. INTELLECTUAL PROPERTY",
+        "type": "ip",
+        "risk_level": "Low",
+        "risk_meta": {
+          "label": "Low Risk",
+          "color": "#22c55e"
+        },
+        "reason": "Could not assess \u2014 defaulting to Low risk.",
+        "confidence": 0.5,
+        "escalate_to_human": true,
+        "original_text": "7. INTELLECTUAL PROPERTY\r\n7.1 Client acknowledges and agrees that all intellectual property rights in\r\nand to the Platform, including all modifications, enhancements, and\r\nderivative works, and all other work product created by Vendor in\r\nconnection with this Agreement, shall be and remain the sole and exclusive\r\nproperty of Client. Vendor hereby assigns to Client all right, title, and\r\ninterest in and to such intellectual property, including all pre-existing\r\nwork, tools, and methodologies used by Vendor.",
+        "redline": null,
+        "diff": null,
+        "redline_reason": null,
+        "regulatory_citation": null,
+        "regulatory_note": null,
+        "playbook_check": {
+          "violated": false,
+          "standard": "Vendor retains all pre-existing IP; only custom work-for-hire transfers"
+        },
+        "is_missing": false
+      },
+      {
+        "id": "clause_8",
+        "heading": "8. GOVERNING LAW",
+        "type": "governing_law",
+        "risk_level": "OK",
+        "risk_meta": {
+          "label": "OK",
+          "color": "#6b7280"
+        },
+        "reason": "Standard Delaware governing law and exclusive venue; acceptable but may be inconvenient for remote clients.",
+        "confidence": 0.9,
+        "escalate_to_human": false,
+        "original_text": "8. GOVERNING LAW\r\n8.1 This Agreement shall be governed by and construed in accordance with\r\nthe laws of the State of Delaware. Any disputes shall be resolved\r\nexclusively in the state or federal courts located in Delaware.",
+        "redline": null,
+        "diff": null,
+        "redline_reason": null,
+        "regulatory_citation": null,
+        "regulatory_note": null,
+        "playbook_check": {
+          "violated": false,
+          "standard": "Mutual jurisdiction; mediation before litigation"
+        },
+        "is_missing": false
+      },
+      {
+        "id": "clause_9",
+        "heading": "9. TERMINATION",
+        "type": "termination",
+        "risk_level": "OK",
+        "risk_meta": {
+          "label": "OK",
+          "color": "#6b7280"
+        },
+        "reason": "Standard 30-day termination for convenience; immediate for material breach. Balanced mutual terms align with market standards.",
+        "confidence": 0.9,
+        "escalate_to_human": false,
+        "original_text": "9. TERMINATION\r\n9.1 Either party may terminate this Agreement for convenience upon 30 days\r\nwritten notice.\r\n9.2 Either party may terminate immediately upon written notice if the other\r\nparty materially breaches this Agreement.",
+        "redline": null,
+        "diff": null,
+        "redline_reason": null,
+        "regulatory_citation": null,
+        "regulatory_note": null,
+        "playbook_check": {
+          "violated": false,
+          "standard": "30-day notice for convenience; 30-day cure period for breach"
+        },
+        "is_missing": false
+      },
+      {
+        "id": "clause_10",
+        "heading": "10. GENERAL",
+        "type": "other",
+        "risk_level": "Low",
+        "risk_meta": {
+          "label": "Low Risk",
+          "color": "#22c55e"
+        },
+        "reason": "Standard entire agreement and no-oral-modification clauses; typical boilerplate with minimal risk.",
+        "confidence": 0.9,
+        "escalate_to_human": false,
+        "original_text": "10. GENERAL\r\n10.1 This Agreement constitutes the entire agreement between the parties\r\nwith respect to its subject matter.\r\n10.2 No amendment to this Agreement shall be effective unless made in\r\nwriting and signed by both parties.",
+        "redline": null,
+        "diff": null,
+        "redline_reason": null,
+        "regulatory_citation": null,
+        "regulatory_note": null,
+        "playbook_check": {
+          "violated": false,
+          "standard": ""
+        },
+        "is_missing": false
+      },
+      {
+        "id": "clause_11",
+        "heading": "11. RENEWAL",
+        "type": "termination",
+        "risk_level": "High",
+        "risk_meta": {
+          "label": "High Risk",
+          "color": "#ef4444"
+        },
+        "reason": "90-day notice period for non-renewal is significantly longer than standard 30 days, creating high risk of unintentional binding renewal for client.",
+        "confidence": 0.9,
+        "escalate_to_human": false,
+        "original_text": "11. RENEWAL\r\n11.1 Upon expiration of the initial term, this Agreement will automatically\r\nrenew for successive 12-month periods.\r\n11.3 Either party may prevent automatic renewal by providing written notice\r\nto the other party at least 90 days prior to the end of the then-current\r\nterm. Failure to provide such notice within this window shall result in\r\nautomatic binding renewal.",
+        "redline": "11. RENEWAL\n11.1 Upon expiration of the initial term, this Agreement will automatically renew for successive 12-month periods.\n11.3 Either party may prevent automatic renewal by providing written notice to the other party at least 30 days before the end of the current term. If notice is not provided within this period, the Agreement will automatically renew for an additional term.",
+        "diff": [
+          {
+            "op": "equal",
+            "text": "11. RENEWAL"
+          },
+          {
+            "op": "delete",
+            "text": "\r"
+          },
+          {
+            "op": "equal",
+            "text": "\n11.1 Upon expiration of the initial term, this Agreement will automatically"
+          },
+          {
+            "op": "delete",
+            "text": "\r\n"
+          },
+          {
+            "op": "insert",
+            "text": " "
+          },
+          {
+            "op": "equal",
+            "text": "renew for successive 12-month periods."
+          },
+          {
+            "op": "delete",
+            "text": "\r"
+          },
+          {
+            "op": "equal",
+            "text": "\n11.3 Either party may prevent automatic renewal by providing written notice"
+          },
+          {
+            "op": "delete",
+            "text": "\r\n"
+          },
+          {
+            "op": "insert",
+            "text": " "
+          },
+          {
+            "op": "equal",
+            "text": "to the other party at least "
+          },
+          {
+            "op": "delete",
+            "text": "9"
+          },
+          {
+            "op": "insert",
+            "text": "3"
+          },
+          {
+            "op": "equal",
+            "text": "0 days "
+          },
+          {
+            "op": "delete",
+            "text": "prior to"
+          },
+          {
+            "op": "insert",
+            "text": "before"
+          },
+          {
+            "op": "equal",
+            "text": " the end of the "
+          },
+          {
+            "op": "delete",
+            "text": "then-"
+          },
+          {
+            "op": "equal",
+            "text": "current"
+          },
+          {
+            "op": "delete",
+            "text": "\r\n"
+          },
+          {
+            "op": "insert",
+            "text": " "
+          },
+          {
+            "op": "equal",
+            "text": "term. "
+          },
+          {
+            "op": "delete",
+            "text": "Failure to provide such notice within this window shall result in\r\nautomatic binding renewal"
+          },
+          {
+            "op": "insert",
+            "text": "If notice is not provided within this period, the Agreement will automatically renew for an additional term"
+          },
+          {
+            "op": "equal",
+            "text": "."
+          }
+        ],
+        "redline_reason": "The notice period for non-renewal is reduced from 90 days to 30 days to align with market standards and lower the risk of unintended binding renewals for the client.",
+        "regulatory_citation": null,
+        "regulatory_note": null,
+        "playbook_check": {
+          "violated": true,
+          "standard": "30-day written notice to cancel before renewal",
+          "acceptable_range": "Up to 60 days"
+        },
+        "is_missing": false
+      },
+      {
+        "id": "missing_data",
+        "heading": "MISSING: Data Processing Agreement (DPA)",
+        "type": "data",
+        "risk_level": "High",
+        "risk_meta": {
+          "label": "High Risk",
+          "color": "#ef4444"
+        },
+        "reason": "GDPR Art. 28 mandates a DPA for any processing of EU personal data by a processor.",
+        "confidence": 1.0,
+        "escalate_to_human": false,
+        "original_text": "",
+        "redline": null,
+        "diff": null,
+        "redline_reason": "GDPR Art. 28 mandates a DPA for any processing of EU personal data by a processor.",
+        "regulatory_citation": "GDPR Article 28",
+        "regulatory_note": null,
+        "playbook_check": {
+          "violated": true,
+          "standard": "A Data Processing Agreement must be in place before any EU personal data is processed.",
+          "acceptable_range": ""
+        },
+        "is_missing": true
+      }
+    ],
+    "action_checklist": [
+      {
+        "priority": "High",
+        "category": "sla",
+        "clause_id": "clause_1",
+        "clause_heading": "1. SERVICES",
+        "action": "Add SLA with 99.9% uptime commitment and service credits.",
+        "redline_available": true,
+        "redline_reason": "Clause rewritten to market standard.",
+        "is_missing": false
+      },
+      {
+        "priority": "High",
+        "category": "liability",
+        "clause_id": "clause_4",
+        "clause_heading": "4. LIMITATION OF LIABILITY",
+        "action": "Redline liability cap to 12-month fees or $50,000 minimum before signing.",
+        "redline_available": false,
+        "redline_reason": "Redline generation failed: 'NoneType' object has no attribute 'strip'",
+        "is_missing": false
+      },
+      {
+        "priority": "High",
+        "category": "payment",
+        "clause_id": "clause_6",
+        "clause_heading": "6. PAYMENT DISPUTES",
+        "action": "Review payment terms and late fee structure against your cash flow requirements.",
+        "redline_available": true,
+        "redline_reason": "The change extends the dispute window from 5 to 30 days to align with common market practice and ensure clients have sufficient time to identify and raise legitimate billing issues without risk of automatic waiver.",
+        "is_missing": false
+      },
+      {
+        "priority": "High",
+        "category": "auto_renewal",
+        "clause_id": "clause_11",
+        "clause_heading": "11. RENEWAL",
+        "action": "Negotiate auto-renewal notice window down to 30 days.",
+        "redline_available": true,
+        "redline_reason": "The notice period for non-renewal is reduced from 90 days to 30 days to align with market standards and lower the risk of unintended binding renewals for the client.",
+        "is_missing": false
+      },
+      {
+        "priority": "High",
+        "category": "data",
+        "clause_id": "missing_data",
+        "clause_heading": "MISSING: Data Processing Agreement (DPA)",
+        "action": "Add a GDPR-compliant Data Processing Agreement (DPA) annex or standalone agreement.",
+        "redline_available": false,
+        "redline_reason": "GDPR Art. 28 mandates a DPA for any processing of EU personal data by a processor.",
+        "is_missing": true
+      }
+    ],
+    "escalated_clauses": [
+      "clause_2",
+      "clause_3",
+      "clause_5",
+      "clause_7"
+    ]
+  }
+}

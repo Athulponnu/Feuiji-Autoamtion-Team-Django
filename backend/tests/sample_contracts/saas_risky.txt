@@ -1,0 +1,44 @@
+SAAS VENDOR AGREEMENT
+
+This Software as a Service Agreement ("Agreement") is entered into as of January 1, 2024, between Acme Corp ("Vendor") and Client Co ("Client").
+
+1. SERVICES
+Vendor agrees to provide Client with access to the Acme SaaS Platform ("Platform") on the terms set out in this Agreement. Vendor will use commercially reasonable efforts to maintain availability of the Platform.
+
+2. FEES AND PAYMENT
+2.1 Client shall pay Vendor a monthly subscription fee of $5,000 per month.
+2.2 Invoices are due and payable within 7 days of the invoice date. Late payments shall accrue interest at 5% per month.
+2.3 All fees are non-refundable.
+
+3. TERM
+3.1 This Agreement shall commence on the Effective Date and continue for an initial term of 12 months.
+
+4. LIMITATION OF LIABILITY
+4.1 In no event shall either party be liable for indirect, incidental, or consequential damages.
+4.2 Notwithstanding anything to the contrary, Vendor's total aggregate liability to Client for any claims arising under or related to this Agreement shall not exceed $500 (five hundred US dollars).
+
+5. CONFIDENTIALITY
+5.1 Each party agrees to keep confidential all non-public information of the other party disclosed in connection with this Agreement.
+5.2 This confidentiality obligation shall survive for a period of 3 years following termination of this Agreement.
+5.3 Confidential information shall not include information that is publicly available or independently developed.
+
+6. PAYMENT DISPUTES
+6.1 Client must raise any payment dispute in writing within 5 days of receiving an invoice. Disputes not raised within this period are deemed waived.
+
+7. INTELLECTUAL PROPERTY
+7.1 Client acknowledges and agrees that all intellectual property rights in and to the Platform, including all modifications, enhancements, and derivative works, and all other work product created by Vendor in connection with this Agreement, shall be and remain the sole and exclusive property of Client. Vendor hereby assigns to Client all right, title, and interest in and to such intellectual property, including all pre-existing work, tools, and methodologies used by Vendor.
+
+8. GOVERNING LAW
+8.1 This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware. Any disputes shall be resolved exclusively in the state or federal courts located in Delaware.
+
+9. TERMINATION
+9.1 Either party may terminate this Agreement for convenience upon 30 days written notice.
+9.2 Either party may terminate immediately upon written notice if the other party materially breaches this Agreement.
+
+10. GENERAL
+10.1 This Agreement constitutes the entire agreement between the parties with respect to its subject matter.
+10.2 No amendment to this Agreement shall be effective unless made in writing and signed by both parties.
+
+11. RENEWAL
+11.1 Upon expiration of the initial term, this Agreement will automatically renew for successive 12-month periods.
+11.3 Either party may prevent automatic renewal by providing written notice to the other party at least 90 days prior to the end of the then-current term. Failure to provide such notice within this window shall result in automatic binding renewal.
